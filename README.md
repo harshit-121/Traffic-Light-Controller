@@ -9,4 +9,4 @@ At the end of 50 seconds, the lights change back unless there is a car on street
 If cars continue to arrive on street "B" and no car appears on street "A", "B" continues to have a green light.
 When "A" is green, it remains green at least 60 seconds, and then the lights change only when a car approaches on "B".
 The controller has 6 outputs (𝐺𝑎,𝑌𝑎,𝑅𝑎) that drive the green, yellow, and red lights on street "A", and (𝐺𝑏,𝑌𝑏,𝑅𝑏) drive the corresponding lights on street "B".
-![image](https://github.com/user-attachments/assets/0be4db7c-a245-4aa1-b7d3-1bf57c66f0b8)
+                                ![image](https://github.com/user-attachments/assets/0be4db7c-a245-4aa1-b7d3-1bf57c66f0b8)
