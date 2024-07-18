@@ -11,14 +11,16 @@ When "A" is green, it remains green at least 60 seconds, and then the lights cha
 The controller has 6 outputs (𝐺𝑎,𝑌𝑎,𝑅𝑎) that drive the green, yellow, and red lights on street "A", and (𝐺𝑏,𝑌𝑏,𝑅𝑏) drive the corresponding lights on street "B".
 ![image](https://github.com/user-attachments/assets/0be4db7c-a245-4aa1-b7d3-1bf57c66f0b8)
 
- S0 = 3'b000;  // hgw=G, ctry=R 
+ S0 = 3'b000;  // A = G, B = R 
  
- S1 = 3'b001;  // hgw=Y, ctry=R 
+ S1 = 3'b001;  // A = Y, B = R 
  
- S2 = 3'b010;  // hgw=R, ctry=R (Extra Safety)
+ S2 = 3'b010;  // A = R, B = R (Extra Safety)
  
- S3 = 3'b011;  // hgw=R, ctry=G
+ S3 = 3'b011;  // A = R, B = G
  
- S4 = 3'b100;  // hgw=R, ctry=Y   
+ S4 = 3'b100;  // A = R, B = Y   
  
- ![image](https://github.com/user-attachments/assets/06970ed0-126e-4fc9-bf6a-5b1b110eddac)
+![image](https://github.com/user-attachments/assets/9cdcd8c5-48a8-4fea-bf7a-f1f6f8fd7104)
+
+![image](https://github.com/user-attachments/assets/32490192-c541-4e9c-aaff-588f58ca13c3)
