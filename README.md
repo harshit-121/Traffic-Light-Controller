@@ -20,7 +20,7 @@ The controller has 6 outputs (𝐺𝑎,𝑌𝑎,𝑅𝑎) that drive the green, 
  S3 = 3'b011;  // A = R, B = G
  
  S4 = 3'b100;  // A = R, B = Y   
- 
-![image](https://github.com/user-attachments/assets/9cdcd8c5-48a8-4fea-bf7a-f1f6f8fd7104)
+ < p align = "center">
+![image](https://github.com/user-attachments/assets/9cdc2f8f-ef80-4b0a-9c3b-e9e15948da17)
 
 ![image](https://github.com/user-attachments/assets/32490192-c541-4e9c-aaff-588f58ca13c3)
